@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 2282725655356974979}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 2.6, z: 0}
-  m_LocalScale: {x: 1.95, y: 0.9, z: 0.5}
+  m_LocalScale: {x: 2, y: 1, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -109,6 +109,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hits: 2
-  points: 50
+  points: 10
   rotator: {x: 45, y: 0, z: 0}
   hitMaterial: {fileID: 0}

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
     // Define private variation
-    float _speed = 20f;
+    float _speed = 22f;
     Rigidbody _rigidbody;
     Vector3 _velocity;
     Renderer _renderer;
@@ -20,7 +20,7 @@ public class Ball : MonoBehaviour
 
     void Launch()
     {
-        _rigidbody.velocity = Vector3.up * _speed;
+        _rigidbody.velocity = Vector3.down * _speed;
     }
 
  
